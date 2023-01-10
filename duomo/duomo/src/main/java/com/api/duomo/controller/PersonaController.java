@@ -30,6 +30,7 @@ public class PersonaController {
   @Autowired
   private IPersonaService personaService;
   // Probando comentarios
+  // prueba 2
 
   @PostMapping(value = "/persona/{idregion}/{idcomuna}",consumes = MediaType.APPLICATION_JSON_VALUE,
       produces = MediaType.APPLICATION_JSON_VALUE)
